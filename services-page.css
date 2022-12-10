@@ -1,0 +1,344 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.vulture-pi1 {
+  left: 102.61px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187.96px;
+  opacity: 0;
+}
+.vulture-pi1.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.login-btn5,
+.login1,
+.vulture-pi1 {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.login-btn5 {
+  left: 0;
+  background-color: var(--color-white);
+  width: 207.01px;
+}
+.login1 {
+  left: 15.33px;
+  font-size: var(--font-size-sm);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.login1:hover {
+  color: var(--color-turquoise);
+}
+.login-btn4 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1121px;
+  width: 207.01px;
+  height: 83px;
+}
+.login-btn4,
+.login-btn4:hover {
+  cursor: pointer;
+}
+.about1,
+.login-btn4,
+.logo-icon1 {
+  position: absolute;
+  top: 0;
+}
+.about1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1772px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170.68px;
+  height: 83px;
+}
+.about1:hover,
+.sign-up1:hover {
+  color: var(--color-turquoise);
+}
+.logo-icon1 {
+  left: 0;
+  width: 102.61px;
+  height: 79.64px;
+  object-fit: cover;
+}
+.login-btn6,
+.login-btn9,
+.sign-up1 {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.sign-up1 {
+  left: 15.33px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+  cursor: pointer;
+}
+.login-btn6,
+.login-btn9 {
+  width: 207.01px;
+}
+.login-btn6 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1350px;
+}
+.login-btn6,
+.login-btn6:hover {
+  cursor: pointer;
+}
+.login-btn9 {
+  left: 13px;
+  background-color: var(--color-white);
+}
+.home1 {
+  text-decoration: none;
+  left: 0;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.home1:hover {
+  color: var(--color-turquoise);
+}
+.home1,
+.login-btn8,
+.menu-bar1 {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.login-btn8 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1577px;
+  width: 220.01px;
+}
+.login-btn8,
+.login-btn8:hover {
+  cursor: pointer;
+}
+.menu-bar1 {
+  left: 35px;
+  width: 1942.68px;
+}
+.frame-div1,
+.rectangle-div {
+  position: absolute;
+  width: 1978px;
+}
+.frame-div1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  height: 2378px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.rectangle-div {
+  top: 2094px;
+  left: 4px;
+  background-color: var(--color-violet);
+  height: 284px;
+}
+.features {
+  position: absolute;
+  top: 156px;
+  left: 10px;
+  font-size: var(--font-size-xl);
+  display: flex;
+  color: var(--color-violet);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 388.89px;
+  height: 134.57px;
+}
+.when-it-comes-to-features-the {
+  margin: 0;
+  position: absolute;
+  top: 357px;
+  left: 58px;
+  font-weight: 300;
+  display: inline-block;
+  width: 1113px;
+  height: 723px;
+}
+.email-1-1 {
+  position: absolute;
+  top: 1551px;
+  left: 58px;
+  width: 79px;
+  height: 51px;
+  object-fit: cover;
+}
+.innovationinfinite8gmailcom {
+  text-decoration: none;
+  position: absolute;
+  top: 1554px;
+  left: 170px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  width: 602px;
+}
+.call-1-icon {
+  position: absolute;
+  top: 1677px;
+  left: 58px;
+  width: 79px;
+  height: 89px;
+  object-fit: cover;
+}
+.div {
+  position: absolute;
+  top: 1698px;
+  left: 170px;
+  font-weight: 300;
+  display: inline-block;
+  width: 602px;
+}
+.linkedin-1-icon {
+  position: absolute;
+  top: 1841px;
+  left: 58px;
+  width: 83px;
+  height: 85px;
+  object-fit: cover;
+}
+.tanmay25bijalwangmailcom1 {
+  text-decoration: underline;
+}
+.tanmay25bijalwangmailcom {
+  color: inherit;
+}
+.e-mail-tanmay25bijalwangmai {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.blank-line1 {
+  margin: 0;
+}
+.all-the-contents-used-in-this,
+.footer {
+  position: absolute;
+  width: 1978px;
+  height: 282px;
+}
+.all-the-contents-used-in-this {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.footer {
+  top: 2096px;
+  left: 10px;
+  font-size: var(--font-size-xs);
+  color: inherit;
+}
+.linkedin-tanmay-bijalwan {
+  text-decoration: none;
+  position: absolute;
+  top: 1855px;
+  left: 177px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+}
+.hero-section-photo {
+  position: absolute;
+  top: 1269px;
+  left: 1299px;
+  width: 619.32px;
+  height: 649px;
+  object-fit: cover;
+}
+.for-any-issue-related-to-the-s {
+  margin: 0;
+  position: absolute;
+  top: 1373px;
+  left: 49px;
+  font-weight: 300;
+  display: inline-block;
+  width: 1113px;
+}
+.hero-section-photo1 {
+  position: absolute;
+  top: 267px;
+  left: 1313px;
+  width: 619.32px;
+  height: 649px;
+  object-fit: cover;
+}
+.contact-us {
+  position: absolute;
+  top: 1159px;
+  left: 49px;
+  font-size: var(--font-size-xl);
+  display: flex;
+  color: var(--color-violet);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 388.89px;
+  height: 134.57px;
+}
+.services-page {
+  position: relative;
+  width: 100%;
+  height: 2378px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

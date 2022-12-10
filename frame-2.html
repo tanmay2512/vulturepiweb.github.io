@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="frame-div">
+      <b class="you-are-at-home-page-only"
+        ><span class="you-are-at-container"
+          ><p class="you-are-at">You are at</p>
+          <p class="home-page-only">home page only</p></span
+        ></b
+      ><button class="icons8-close-48-1" id="popupicons8Close481"></button>
+    </div>
+
+    <script>
+      var popupicons8Close481 = document.getElementById("popupicons8Close481");
+      if (popupicons8Close481) {
+        popupicons8Close481.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

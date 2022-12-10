@@ -1,0 +1,208 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.login-page-image {
+  position: absolute;
+  top: 47px;
+  left: 661px;
+  width: 570px;
+  height: 801px;
+  object-fit: cover;
+}
+.rectangle-div2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-indigo);
+  width: 235px;
+  height: 56px;
+}
+.login3 {
+  left: 0;
+  font-size: var(--font-size-sm);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 235px;
+}
+.create-new-account1,
+.login-btn14,
+.login3 {
+  position: absolute;
+  top: 0;
+  height: 56px;
+}
+.login-btn14 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 213px;
+  width: 235px;
+}
+.create-new-account1 {
+  left: 14.85px;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205.3px;
+}
+.create-new-account {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 152px;
+  left: 212px;
+  width: 235px;
+  height: 56px;
+}
+.create-new-account:active {
+  animation: 1s ease 0s infinite normal none fade-in;
+  opacity: 1;
+}
+.options-for-login,
+.or {
+  position: absolute;
+  left: 0;
+  width: 661px;
+}
+.or {
+  margin: 0;
+  top: 76px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+}
+.options-for-login {
+  top: 570px;
+  height: 208px;
+}
+.email-textbox,
+.forgot-password,
+.password-textbox {
+  border: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-2xs);
+  background-color: transparent;
+  position: absolute;
+}
+.forgot-password {
+  cursor: pointer;
+  padding: 0;
+  top: 458px;
+  left: 70px;
+  text-transform: capitalize;
+  color: #2363ad;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 267px;
+}
+.forgot-password:hover {
+  animation: 2s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.email-textbox,
+.password-textbox {
+  top: 0;
+  left: 0;
+  width: 532px;
+  height: 54px;
+}
+.password-textbox {
+  top: 114px;
+}
+.credentials-entering-area,
+.login4 {
+  position: absolute;
+  top: 251px;
+  left: 63px;
+  width: 532px;
+  height: 168px;
+}
+.login4 {
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 598px;
+  height: 61px;
+}
+.hey-there-we {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.hey-there-we-are-thrilled-to {
+  position: absolute;
+  top: 99px;
+  left: 0;
+  font-size: var(--font-size-2xs);
+  font-weight: 300;
+  display: inline-block;
+  width: 598px;
+  height: 57px;
+}
+.login-texts {
+  position: absolute;
+  top: 58px;
+  left: 63px;
+  width: 598px;
+  height: 156px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.login-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 879px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

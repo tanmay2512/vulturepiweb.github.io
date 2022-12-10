@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./about-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-page">
+      <div class="our-aim-section">
+        <b class="our-aim">OUR AIM</b>
+        <div class="in-india-everyone-should-have">
+          <p class="in-india-everyone">
+            In India, everyone should have access to technology. As of 2021,
+            India is ranked 46th on the Global Innovation Index (GII). To make
+            India the top country in the global innovation index, We are working
+            day and night to develop a smart home for every sort of user
+            worldwide. With helpful functions like kitchen care, garden care,
+            security, and many more at a reasonable price, we aim to make smart
+            homes accessible to everyone.
+          </p>
+        </div>
+        <img class="aim-img-icon" alt="" src="public/illustration-man@2x.png" />
+      </div>
+      <div class="our-vision-section">
+        <b class="our-vision">OUR VISION</b
+        ><img
+          class="vision-img-icon"
+          alt=""
+          src="public/illustration-man1@2x.png"
+        />
+        <div class="mother-nature-is-always-on-our" id="quote-text">
+          <p class="in-india-everyone">
+            <span
+              >Mother Nature is always on our minds. Every technical
+              advancement, in our opinion, shouldn't have an adverse
+              environmental impact. Prior to beginning the creation of any
+              project, we always consider our mother nature.Because we care
+              about the environment, we made the Vulture Pi eco-friendly by
+              taking a working component from a broken device and only using it
+              in the production of the Vulture Pi after making sure it
+              works.</span
+            >
+          </p>
+          <p class="blank-line"><span>&nbsp;</span></p>
+        </div>
+      </div>
+      <div class="about-us-heading"><b class="about-us">ABOUT US</b></div>
+      <div class="menu-bar">
+        <div class="vulture-pi" data-animate-on-scroll>VULTURE PI</div>
+        <button class="login-btn" id="loginBtn">
+          <div class="login-btn1"></div>
+          <b class="login">LOGIN</b></button
+        ><button class="home" id="hOME">HOME</button
+        ><button class="about" id="aBOUT">ABOUT</button
+        ><img class="logo-icon" alt="" src="public/logo@2x.png" /><button
+          class="login-btn2"
+          id="loginBtn2"
+        >
+          <div class="login-btn1"></div>
+          <strong class="sign-up" id="sIGNUP">SIGN UP</strong>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var loginBtn = document.getElementById("loginBtn");
+      if (loginBtn) {
+        loginBtn.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      
+      var hOME = document.getElementById("hOME");
+      if (hOME) {
+        hOME.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var aBOUT = document.getElementById("aBOUT");
+      if (aBOUT) {
+        aBOUT.addEventListener("click", function (e) {
+          window.location.href = "./about-page.html";
+        });
+      }
+      
+      var sIGNUP = document.getElementById("sIGNUP");
+      if (sIGNUP) {
+        sIGNUP.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-page.html";
+        });
+      }
+      
+      var loginBtn2 = document.getElementById("loginBtn2");
+      if (loginBtn2) {
+        loginBtn2.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,265 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.our-aim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 388.89px;
+  height: 134.57px;
+}
+.in-india-everyone {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.in-india-everyone-should-have {
+  position: absolute;
+  top: 182px;
+  left: 75px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 1137px;
+  height: 311px;
+}
+.aim-img-icon {
+  position: absolute;
+  top: 39px;
+  left: 1301px;
+  width: 570px;
+  height: 699px;
+  object-fit: cover;
+}
+.our-aim-section,
+.our-vision {
+  position: absolute;
+  top: 1038px;
+  left: -40px;
+  width: 1871px;
+  height: 738px;
+}
+.our-vision {
+  top: 25px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 388.89px;
+  height: 134.57px;
+}
+.vision-img-icon {
+  position: absolute;
+  top: 0;
+  left: 1282px;
+  width: 570px;
+  height: 699px;
+  object-fit: cover;
+}
+.blank-line {
+  margin: 0;
+  font-size: var(--font-size-2xs);
+}
+.mother-nature-is-always-on-our {
+  position: absolute;
+  top: 225px;
+  left: 18px;
+  font-weight: 300;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 1264px;
+  height: 311px;
+  font-size: var(--font-size-base);
+}
+.our-vision-section {
+  position: absolute;
+  top: 311px;
+  left: 17px;
+  width: 1852px;
+  height: 699px;
+}
+.about-us,
+.about-us-heading {
+  position: absolute;
+  width: 385px;
+  height: 90px;
+}
+.about-us {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-heading {
+  top: 181px;
+  left: 1px;
+  color: var(--color-black);
+}
+.vulture-pi {
+  position: absolute;
+  top: 0;
+  left: 102.61px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187.96px;
+  height: 83px;
+  opacity: 0;
+}
+.vulture-pi.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.login-btn1 {
+  left: 0;
+  background-color: var(--color-white);
+  width: 207.01px;
+}
+.login,
+.login-btn,
+.login-btn1 {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.login {
+  left: 15.33px;
+  font-size: var(--font-size-sm);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.login:hover {
+  color: var(--color-turquoise);
+}
+.login-btn {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1121px;
+  width: 207.01px;
+}
+.home,
+.login-btn,
+.login-btn:hover {
+  cursor: pointer;
+}
+.home {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1580px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170.68px;
+  height: 83px;
+}
+.about:hover,
+.home:hover,
+.sign-up:hover {
+  color: var(--color-turquoise);
+}
+.about,
+.home,
+.logo-icon {
+  position: absolute;
+  top: 0;
+}
+.about {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1772px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170.68px;
+  height: 83px;
+}
+.logo-icon {
+  left: 0;
+  width: 102.61px;
+  height: 79.64px;
+  object-fit: cover;
+}
+.sign-up {
+  left: 15.33px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+  cursor: pointer;
+}
+.login-btn2,
+.menu-bar,
+.sign-up {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.login-btn2 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1350px;
+  width: 207.01px;
+}
+.login-btn2,
+.login-btn2:hover {
+  cursor: pointer;
+}
+.menu-bar {
+  left: 35px;
+  width: 1942.68px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.about-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1824px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-violet);
+  font-family: var(--font-inter);
+}

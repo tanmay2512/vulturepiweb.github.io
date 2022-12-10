@@ -1,0 +1,52 @@
+body {
+  line-height: normal;
+}
+.you-are-at {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.home-page-only,
+body {
+  margin: 0;
+}
+.you-are-at-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.you-are-at-home-page-only {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 477px;
+  height: 219px;
+}
+.icons8-close-48-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 429px;
+  width: 48px;
+  height: 48px;
+  background-image: url(./public/icons8close481@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frame-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 477px;
+  height: 219px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

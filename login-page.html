@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-page" id="login">
+      <img
+        class="login-page-image"
+        alt=""
+        src="public/illustration-man2@2x.png"
+      />
+      <div class="options-for-login">
+        <button class="login-btn14" id="loginBTN">
+          <div class="rectangle-div2"></div>
+          <div class="login3">LOGIN</div></button
+        ><button class="create-new-account" id="createNewAccount">
+          <div class="rectangle-div2"></div>
+          <div class="create-new-account1">CREATE NEW ACCOUNT</div>
+        </button>
+        <p class="or" id="or-text">OR</p>
+      </div>
+      <button class="forgot-password">Forgot Password</button>
+      <div class="credentials-entering-area">
+        <input class="email-textbox" type="email" placeholder="Email" /><input
+          class="password-textbox"
+          type="password"
+          placeholder="Password"
+        />
+      </div>
+      <div class="login-texts">
+        <h1 class="login4" id="login-heading">Login</h1>
+        <div class="hey-there-we-are-thrilled-to" id="quote-text">
+          <p class="hey-there-we">
+            Hey there! We are thrilled to be back. Before we start , Login
+            first.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginBTN = document.getElementById("loginBTN");
+      if (loginBTN) {
+        loginBTN.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var createNewAccount = document.getElementById("createNewAccount");
+      if (createNewAccount) {
+        createNewAccount.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>
